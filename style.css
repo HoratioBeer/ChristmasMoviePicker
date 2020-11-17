@@ -50,7 +50,7 @@ h1 {
 
 button {
   font-size: 3vw;
-  padding: 1.5% 3%;
+  padding: .5% 1.5%;
   background-color: #228b22;
   color: white;
   outline: none;
@@ -68,6 +68,10 @@ button:hover {
 
 .check {
   color: white;
+  text-shadow: 2px 2px 0 #940303,
+               -2px -2px 0 #940303,
+               2px -2px 0 #940303,
+               -2px 2px 0 #940303;
 }
 
 #navdown {
