@@ -108,9 +108,7 @@ a {
 
 input[type="text"] {
   font-size: .7em;
-  word-wrap: break-word;
-  word-break: break-all;
-  width: 200px;
+  width: 230px;
 }
 
 .inputs {
@@ -160,12 +158,12 @@ ol li {
 
 aside {
   float: left;
-  width: 41%;
+  width: 42%;
 }
 
 section {
   float: right;
-  width: 58%;
+  width: 57%;
 }
 }
 
