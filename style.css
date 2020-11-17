@@ -108,7 +108,7 @@ a {
 
 input[type="text"] {
   font-size: .7em;
-  width: 320px;
+  width: 240px;
 }
 
 .inputs {
@@ -158,12 +158,12 @@ ol li {
 
 aside {
   float: left;
-  width: 47%;
+  width: 48%;
 }
 
 section {
   float: right;
-  width: 52%;
+  width: 51%;
 }
 }
 
