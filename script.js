@@ -57,7 +57,7 @@ document.getElementById("choose").addEventListener("click", pickAMovie);
 document.getElementById("choose").addEventListener("click", changeDay);
 document.getElementById("choose").addEventListener("click", makeASchedule);
 
-//Let's the user see what movies are in by default
+//Lets the user see what movies are in by default
 
 let placeholders = document.querySelectorAll("input");
 
@@ -65,7 +65,7 @@ for (let i = 0; i < placeholders.length; i++) {
   placeholders[i].placeholder = movies[i];
 }
 
-//Let's the user change any movie they'd like before using the tool
+//Lets the user change any movie they'd like before using the tool
 
 document.getElementById("swap").addEventListener("click", function() {
    let inputs = document.querySelectorAll("input");
