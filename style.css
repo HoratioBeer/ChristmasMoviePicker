@@ -1,0 +1,173 @@
+body {
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+}
+
+.container {
+  height: calc(0.65 * 100vw);
+  width: 100vw;
+  position: relative;
+  background: url("https://i.imgur.com/yieuoy6.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-around;
+  align-content: space-around;
+  margin: -7px;
+}
+
+h1 {
+  font-size: 5.8vw;
+  color: white;
+  text-shadow: 2px 2px 0 #006400,
+               -2px -2px 0 #006400,
+               2px -2px 0 #006400,
+               -2px 2px 0 #006400;
+  text-align: center;
+  padding: 4vw 10vw 1vw 5vw;
+  margin-top: 4vh;
+  margin-bottom: -2vh;
+}
+
+.chosen {
+  background: repeating-linear-gradient(
+                    -35deg, 
+                    #F005,
+                    #F005 20px,
+                    #FFF5 20px,
+                    #FFF5 40px
+);
+  min-width: 25%;
+  max-width: 60%;
+  width: fit-content;
+  font-size: 3.5vw;
+  padding: 1%;
+  color: white;
+  text-align: center;
+}
+
+button {
+  font-size: 3vw;
+  padding: 1.5% 3%;
+  background-color: #228b22;
+  color: white;
+  outline: none;
+}
+
+button:hover {
+  background-color: #B22222;
+}
+
+.border {
+  border: 5px solid #006400;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.check {
+  color: white;
+}
+
+#navdown {
+  width: 8vw;
+  height: 4vw;
+  margin-bottom: 2vh;
+}
+
+p {
+  margin: 10px;
+  padding: 10px;
+}
+
+aside {
+  background-color: #228b22;
+  padding-top: 10px;
+}
+
+input {
+  margin: 2px 10px;
+}
+
+ul {
+  margin-left: -10px;
+  margin-right: 10px;
+  font-size: .9em;
+}
+
+#swap {
+  display: block;
+  margin: -5px auto 10px auto;
+  font-size: 1.2em;
+}
+
+a {
+  text-decoration: none;
+}
+
+input[type="text"] {
+  font-size: .7em;
+  word-wrap: break-word;
+  word-break: break-all;
+  width: 200px;
+}
+
+.inputs {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+section {
+  background-color: #006400;
+  color: white;
+  padding-top: 10px;
+}
+
+ol li {
+    counter-increment: dec;
+    list-style: none;  
+    list-style-position: outside;
+    padding-left: 3.5em;
+    text-indent: -3.8em;
+  }
+  
+ ol li::before {
+    content: "Dec " counter(dec) " ~";
+    margin-right: 15px;
+    margin-left: -15px;
+   text-align: right;
+  }
+
+.enjoy {
+  text-align: center;
+  padding: 10px;
+}
+@media only screen and (min-width: 750px) {
+  .container {
+    height: 100vh;
+    width: 100vw;
+   background-size: cover;
+    margin-bottom: 10px;
+}
+  h1 {
+    font-size: 8vh;
+    padding: 3vw 20vw;
+  }
+}
+
+@media only screen and (min-width: 575px) {
+
+aside {
+  float: left;
+  width: 41%;
+}
+
+section {
+  float: right;
+  width: 58%;
+}
+}
+
+
+ 
