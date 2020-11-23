@@ -6,6 +6,7 @@ body {
   height: calc(0.65 * 100vw);
   width: 100vw;
   position: relative;
+  background-color: darkgreen;
   background: url("https://i.imgur.com/yieuoy6.jpg");
   background-size: cover;
   background-position: center;
