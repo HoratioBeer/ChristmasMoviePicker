@@ -5,11 +5,11 @@ function changeDay() {
   day.textContent = days.shift();
 }
 
-let movies = ["8 Kvinnor (2002)",
+let movies = ["3 Godfathers (1948)".
+  "8 Women (2002)",
 "Anna and the Apocalypse (2017)",
 "Arthur Christmas (2011)",
 "Babes in Toyland (1986)",
-"Bad Santa (2003)",
 "Better Watch Out (2016)",
 "Black Christmas (1974)",
 "Elf (2003)",
