@@ -5,7 +5,7 @@ function changeDay() {
   day.textContent = days.shift();
 }
 
-let movies = ["3 Godfathers (1948)".
+let movies = ["3 Godfathers (1948)",
   "8 Women (2002)",
 "Anna and the Apocalypse (2017)",
 "Arthur Christmas (2011)",
