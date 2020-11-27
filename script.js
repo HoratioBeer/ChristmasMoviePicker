@@ -6,14 +6,14 @@ function changeDay() {
 }
 
 let movies = ["3 Godfathers (1948)",
-  "8 Women (2002)",
+  "8 Femmes (2002)",
 "Anna and the Apocalypse (2017)",
 "Arthur Christmas (2011)",
 "Babes in Toyland (1986)",
 "Better Watch Out (2016)",
 "Black Christmas (1974)",
 "Elf (2003)",
-"Ernest Saves Christmas (1988)",
+"Fatman (2020)",
 "Home Alone 2: Lost in New York (1992)",
 "Jingle All the Way (1996)",
 "Jingle Jangle: A Christmas Journey (2020)",
